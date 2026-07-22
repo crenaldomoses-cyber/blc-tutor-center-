@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-blc-cream text-blc-ink font-body antialiased;
+}
+
+/* Headings use the serif display face from the logo wordmark. */
+h1, h2, h3, h4 {
+  @apply font-head;
+}
+
+@layer components {
+  .container-site {
+    @apply max-w-site mx-auto px-5 sm:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-body font-semibold
+      rounded-full px-6 py-3 transition-all duration-200 no-underline
+      focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-blc-red text-white shadow-blcsoft hover:bg-blc-redsoft
+      hover:-translate-y-0.5 focus-visible:ring-blc-red;
+  }
+  .btn-navy {
+    @apply btn bg-blc-navy text-white hover:bg-blc-navydeep
+      hover:-translate-y-0.5 focus-visible:ring-blc-navy;
+  }
+  .btn-ghost {
+    @apply btn border-2 border-blc-navy/20 text-blc-navy hover:border-blc-navy
+      hover:bg-blc-navy hover:text-white;
+  }
+
+  .eyebrow {
+    @apply inline-block font-body font-bold uppercase tracking-[0.18em]
+      text-xs text-blc-red;
+  }
+
+  .card {
+    @apply bg-white rounded-blclg shadow-blcsoft border border-blc-navy/5;
+  }
+
+  .link-underline {
+    @apply relative no-underline text-blc-navy font-semibold
+      after:absolute after:left-0 after:-bottom-0.5 after:h-0.5 after:w-0
+      after:bg-blc-red after:transition-all hover:after:w-full;
+  }
+}
+
+/* Reveal-on-scroll helper */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Decorative arced value tags, echoing the logo */
+.value-arc {
+  letter-spacing: 0.28em;
+}
