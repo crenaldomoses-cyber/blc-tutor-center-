@@ -2,7 +2,21 @@ import { Link } from 'react-router-dom'
 import LazyImage from '../components/LazyImage'
 import Reveal from '../components/Reveal'
 import { site, whatsappLink } from '../data/site'
-import { gradeTiers, whyBlc, gallery } from '../data/programs'
+import PhotoGrid from '../components/PhotoGrid'
+import { gradeTiers, whyBlc } from '../data/programs'
+import { photoById } from '../data/gallery'
+
+// Hand-picked highlights for the home page; the rest live on /gallery.
+const highlights = [
+  'waterfall-group',
+  'hospitality-plated-starter',
+  'circuits-lesson',
+  'graduation-caps',
+  'matric-class-2026',
+  'tug-of-war',
+  'outdoor-reading',
+  'popsicle-catapults',
+].map((id) => photoById[id])
 
 export default function Home() {
   return (
@@ -143,26 +157,17 @@ export default function Home() {
             Learning you can see and feel
           </h2>
           <p className="mt-3 text-blc-slate">
-            From science labs to swimming, our learners do more than read about the world — they explore it.
+            From science practicals and hospitality service to waterfall hikes and the Matric Dance, our learners do more than read about the world — they explore it.
           </p>
         </Reveal>
 
-        <div className="mt-12 grid grid-cols-2 lg:grid-cols-3 gap-4">
-          {gallery.map((g, i) => (
-            <Reveal key={g.src} delay={i * 60} className={i === 0 ? 'col-span-2 lg:col-span-1' : ''}>
-              <figure className="group relative overflow-hidden rounded-blclg shadow-blcsoft">
-                <LazyImage
-                  src={g.src}
-                  alt={g.caption}
-                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-blc-navydeep/85 to-transparent p-4 text-white text-sm font-semibold">
-                  {g.caption}
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
+        <div className="mt-12">
+          <PhotoGrid photos={highlights} className="columns-2 md:columns-3 lg:columns-4" />
         </div>
+
+        <Reveal className="mt-8 text-center">
+          <Link to="/gallery" className="btn-navy">See the full gallery</Link>
+        </Reveal>
       </section>
 
       {/* ---------- CTA ---------- */}

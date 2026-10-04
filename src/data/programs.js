@@ -97,16 +97,6 @@ export const whyBlc = [
   },
 ]
 
-// Gallery — real photos from the centre.
-export const gallery = [
-  { src: '/images/science-experiments.jpeg', caption: 'Hands-on science experiments' },
-  { src: '/images/stem-firefighter-robot.jpeg', caption: 'STEM build & design projects' },
-  { src: '/images/swimming-lessons.jpeg', caption: 'Swimming & water confidence' },
-  { src: '/images/stem-rocket-craft.jpeg', caption: 'Creative crafts & making' },
-  { src: '/images/science-group.jpeg', caption: 'Learning together, safely' },
-  { src: '/images/stem-cardboard-robot.jpeg', caption: 'Imagination in action' },
-]
-
 // Documents required to apply.
 export const enrolDocs = [
   'Certified copy of Parent/Guardian ID',

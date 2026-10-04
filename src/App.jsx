@@ -7,6 +7,7 @@ import Programmes from './pages/Programmes'
 import Subjects from './pages/Subjects'
 import About from './pages/About'
 import Enrol from './pages/Enrol'
+import Gallery from './pages/Gallery'
 import { whatsappLink } from './data/site'
 
 function ScrollToTop() {
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/programmes" element={<Programmes />} />
           <Route path="/subjects" element={<Subjects />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/enrol" element={<Enrol />} />
         </Routes>

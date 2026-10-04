@@ -28,6 +28,7 @@ export const site = {
     { label: 'Home', to: '/' },
     { label: 'Programmes', to: '/programmes' },
     { label: 'Subjects', to: '/subjects' },
+    { label: 'Gallery', to: '/gallery' },
     { label: 'About', to: '/about' },
     { label: 'Enrol', to: '/enrol' },
   ],

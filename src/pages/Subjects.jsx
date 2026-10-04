@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom'
 import Reveal from '../components/Reveal'
+import LazyImage from '../components/LazyImage'
 import PageHeader from '../components/PageHeader'
 import { subjects } from '../data/programs'
 import { whatsappLink } from '../data/site'
+import { photoById } from '../data/gallery'
+
+const hospitalityPhotos = [
+  'hospitality-plated-starter',
+  'hospitality-tea-service',
+  'hospitality-soup-service',
+].map((id) => photoById[id])
 
 function SubjectCard({ name, tone }) {
   const tones = {
@@ -61,6 +69,34 @@ export default function Subjects() {
               </li>
             ))}
           </ul>
+        </Reveal>
+
+        {/* Hospitality spotlight */}
+        <Reveal className="mt-14">
+          <div className="card p-7 md:p-9 grid md:grid-cols-[1fr_1.4fr] gap-8 items-center">
+            <div>
+              <span className="eyebrow">Elective spotlight</span>
+              <h3 className="mt-2 text-2xl font-extrabold text-blc-navy">Hospitality Studies</h3>
+              <p className="mt-3 text-sm text-blc-slate leading-relaxed">
+                Hospitality learners put theory into practice with full table-service practicals:
+                setting the table, plating and serving each course, assessed just as they would be
+                in the industry.
+              </p>
+              <Link to="/gallery?c=hospitality" className="link-underline mt-4 inline-block">
+                See the practicals →
+              </Link>
+            </div>
+            <div className="grid grid-cols-3 gap-3">
+              {hospitalityPhotos.map((p) => (
+                <LazyImage
+                  key={p.id}
+                  src={p.thumb}
+                  alt={p.caption}
+                  className="rounded-2xl w-full h-44 sm:h-56 object-cover shadow-blcsoft"
+                />
+              ))}
+            </div>
+          </div>
         </Reveal>
 
         {/* Outside list note */}

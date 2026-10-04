@@ -3,6 +3,10 @@ import LazyImage from '../components/LazyImage'
 import Reveal from '../components/Reveal'
 import PageHeader from '../components/PageHeader'
 import { site } from '../data/site'
+import { photoById } from '../data/gallery'
+
+const teamPhoto = photoById['tutor-team']
+const outingPhotos = ['waterfall-teens', 'climbing-wall', 'camp-group-photo'].map((id) => photoById[id])
 
 const valueDetail = {
   Learning: 'Impaq-aligned tutoring that meets each learner where they are and builds real understanding.',
@@ -74,6 +78,42 @@ export default function About() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Team & beyond the classroom */}
+      <section className="container-site py-16 grid md:grid-cols-2 gap-12 items-center">
+        <Reveal className="md:order-2">
+          <div className="relative">
+            <div className="absolute -inset-3 bg-blc-red/10 rounded-[34px] -rotate-2" />
+            <LazyImage
+              src={teamPhoto.src}
+              alt="The BLC tutor team in the centre"
+              className="relative rounded-[28px] w-full h-[360px] object-cover shadow-blc"
+            />
+          </div>
+        </Reveal>
+        <Reveal delay={100}>
+          <span className="eyebrow">Our tutors</span>
+          <h2 className="mt-3 text-3xl font-extrabold text-blc-navy">A team that knows every learner</h2>
+          <p className="mt-4 text-blc-slate leading-relaxed">
+            Our tutors work side by side with learners every day, in lessons, on outings and at every
+            celebration in between. Hikes, team-building camps and waterfall trips give learners the
+            chance to grow in confidence outside the classroom too.
+          </p>
+          <div className="mt-6 grid grid-cols-3 gap-3">
+            {outingPhotos.map((p) => (
+              <LazyImage
+                key={p.id}
+                src={p.thumb}
+                alt={p.caption}
+                className="rounded-2xl w-full h-28 object-cover shadow-blcsoft"
+              />
+            ))}
+          </div>
+          <Link to="/gallery?c=outings" className="link-underline mt-5 inline-block">
+            See our outings →
+          </Link>
+        </Reveal>
       </section>
 
       {/* Facts */}
