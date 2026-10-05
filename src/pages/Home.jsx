@@ -3,6 +3,7 @@ import LazyImage from '../components/LazyImage'
 import Reveal from '../components/Reveal'
 import { site, whatsappLink } from '../data/site'
 import PhotoGrid from '../components/PhotoGrid'
+import TestimonialSlider from '../components/TestimonialSlider'
 import { gradeTiers, whyBlc } from '../data/programs'
 import { photoById } from '../data/gallery'
 
@@ -168,6 +169,24 @@ export default function Home() {
         <Reveal className="mt-8 text-center">
           <Link to="/gallery" className="btn-navy">See the full gallery</Link>
         </Reveal>
+      </section>
+
+      {/* ---------- TESTIMONIALS ---------- */}
+      <section className="bg-white/60 py-20 border-y border-blc-navy/5 mb-20">
+        <div className="container-site">
+          <Reveal className="max-w-2xl">
+            <span className="eyebrow">What our parents say</span>
+            <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-blc-navy">
+              Real families. Real journeys.
+            </h2>
+            <p className="mt-3 text-blc-slate">
+              In their own words, parents share what BLC has meant for their children.
+            </p>
+          </Reveal>
+          <Reveal delay={100} className="mt-10">
+            <TestimonialSlider />
+          </Reveal>
+        </div>
       </section>
 
       {/* ---------- CTA ---------- */}

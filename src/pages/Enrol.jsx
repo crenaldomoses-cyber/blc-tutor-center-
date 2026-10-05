@@ -1,5 +1,6 @@
 import Reveal from '../components/Reveal'
 import PageHeader from '../components/PageHeader'
+import TestimonialSlider from '../components/TestimonialSlider'
 import { site, whatsappLink } from '../data/site'
 import { enrolDocs } from '../data/programs'
 
@@ -87,6 +88,17 @@ export default function Enrol() {
               Start on WhatsApp
             </a>
           </div>
+        </Reveal>
+      </section>
+
+      {/* Testimonials */}
+      <section className="container-site py-14">
+        <Reveal className="max-w-2xl">
+          <span className="eyebrow">What our parents say</span>
+          <h2 className="mt-3 text-3xl font-extrabold text-blc-navy">Hear from BLC families</h2>
+        </Reveal>
+        <Reveal delay={100} className="mt-8">
+          <TestimonialSlider />
         </Reveal>
       </section>
 
