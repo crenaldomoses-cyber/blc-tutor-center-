@@ -33,9 +33,6 @@ export default function Navbar() {
             <span className="block font-head font-extrabold text-blc-navy text-lg tracking-wide">
               {site.name}
             </span>
-            <span className="block text-[11px] text-blc-red font-semibold tracking-[0.12em] uppercase">
-              {site.tagline}
-            </span>
           </span>
         </Link>
 

@@ -13,12 +13,7 @@ export default function Footer() {
               alt="BLC Tutor Center"
               className="h-12 w-12 rounded-full object-cover ring-2 ring-white/20"
             />
-            <div>
-              <div className="font-head font-extrabold text-white text-lg">{site.name}</div>
-              <div className="text-blc-greensoft text-xs font-semibold tracking-wide uppercase">
-                {site.tagline}
-              </div>
-            </div>
+            <div className="font-head font-extrabold text-white text-lg">{site.name}</div>
           </div>
           <p className="mt-4 text-sm max-w-sm leading-relaxed text-white/70">
             {site.description}

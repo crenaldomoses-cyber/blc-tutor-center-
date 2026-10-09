@@ -19,7 +19,7 @@ export default function About() {
     <>
       <PageHeader
         eyebrow="About us"
-        title="A bridge to lifelong confidence"
+        title="Learning, respect and growth"
         subtitle="BLC Tutor Center is a home-education tutor centre on the Bluff in Durban, guiding learners from Grade 1 to Matric through the Impaq curriculum."
       />
 

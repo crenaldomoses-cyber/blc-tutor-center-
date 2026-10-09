@@ -2,7 +2,6 @@
 export const site = {
   name: 'BLC Tutor Center',
   shortName: 'BLC',
-  tagline: 'Bridge to Lifelong Confidence',
   values: ['Learning', 'Respect', 'Growth'],
   description:
     'A caring Impaq-curriculum tutor centre on the Bluff, Durban — supporting home-schooled learners from Grade 1 to Grade 12 in small, focused groups.',
