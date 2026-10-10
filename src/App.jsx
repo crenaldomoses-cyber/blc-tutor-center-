@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Seo from './components/Seo'
 import Home from './pages/Home'
 import Programmes from './pages/Programmes'
 import Subjects from './pages/Subjects'
@@ -39,6 +40,7 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <ScrollToTop />
+      <Seo />
       <Navbar />
       <main className="flex-1">
         <Routes>
