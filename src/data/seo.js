@@ -1,7 +1,7 @@
 // Per-page SEO and social-share metadata.
 // Used at runtime (src/components/Seo.jsx) and at build time (vite.config.js),
 // which writes a pre-filled HTML file per route so link previews work without JS.
-export const SITE_URL = 'https://blc-tutor-center.web.app'
+export const SITE_URL = 'https://blc-tutor-center.co.za'
 export const SITE_NAME = 'BLC Tutor Center'
 export const OG_IMAGE = '/images/og-image.jpg'
 export const OG_IMAGE_ALT = 'Learners doing a science practical at BLC Tutor Center'
