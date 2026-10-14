@@ -12,11 +12,11 @@ export const site = {
   email: 'Charleen7078@gmail.com',
   address: {
     line1: '150 Maxwell Avenue',
-    line2: 'Brighton Beach, Bluff',
+    line2: 'Oceanview, Bluff',
     city: 'Durban',
     code: '4052',
   },
-  mapsQuery: '150 Maxwell Avenue, Brighton Beach, Bluff, Durban, 4052',
+  mapsQuery: '150 Maxwell Avenue, Oceanview, Bluff, Durban, 4052',
 
   // Registration
   regNo: '2020 / 770652 / 07',

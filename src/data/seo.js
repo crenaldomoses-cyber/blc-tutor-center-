@@ -35,7 +35,7 @@ export const pages = {
   '/enrol': {
     title: 'Enrol for 2026 | BLC Tutor Center',
     description:
-      'Enrol your child at BLC Tutor Center: the documents to bring, how to get in touch and directions to 150 Maxwell Avenue, Brighton Beach, Bluff. WhatsApp 078 303 7483.',
+      'Enrol your child at BLC Tutor Center: the documents to bring, how to get in touch and directions to 150 Maxwell Avenue, Oceanview, Bluff. WhatsApp 078 303 7483.',
   },
 }
 
