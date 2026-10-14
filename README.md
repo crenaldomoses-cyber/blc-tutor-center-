@@ -2,7 +2,7 @@
 
 Learning · Respect · Growth
 
-A fresh, modern marketing site for **BLC Tutor Center**, an Impaq-curriculum home-education tutor centre on the Bluff, Durban (Grades 1–12). Built with **Vite + React + React Router + Tailwind CSS (+ SCSS)** and deployed to **Firebase Hosting**.
+A fresh, modern marketing site for **BLC Tutor Center**, a home-education tutor centre on the Bluff, Durban (Grades 1–12). Built with **Vite + React + React Router + Tailwind CSS (+ SCSS)** and deployed to **Firebase Hosting**.
 
 ## Getting started
 

@@ -106,7 +106,7 @@ export default function Subjects() {
             <p className="mt-2 text-sm text-blc-slate leading-relaxed max-w-3xl">
               Learners may register for subjects outside our tutor list as self-study. BLC will still
               print and provide tasks, tests and exams, and facilitate uploading and marking through
-              Impaq. Any external facilitator required is arranged and paid for by the parent.
+              the curriculum provider. Any external facilitator required is arranged and paid for by the parent.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <a href={whatsappLink('Hi BLC! I have a question about subject choices.')} target="_blank" rel="noreferrer" className="btn-primary">

@@ -8,7 +8,7 @@ const steps = [
   { n: 1, t: 'Enquire', d: 'Message us on WhatsApp or call to check availability and book a chat.' },
   { n: 2, t: 'Apply', d: 'Complete the BLC application form and gather the required documents below.' },
   { n: 3, t: 'Secure the space', d: 'Pay the once-off R500 administration fee to reserve your learner’s place.' },
-  { n: 4, t: 'Start learning', d: 'Register with Impaq (we can help) and begin — welcome to BLC!' },
+  { n: 4, t: 'Start learning', d: 'Register with the curriculum provider (we can help) and begin — welcome to BLC!' },
 ]
 
 export default function Enrol() {

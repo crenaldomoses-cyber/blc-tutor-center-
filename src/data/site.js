@@ -4,7 +4,7 @@ export const site = {
   shortName: 'BLC',
   values: ['Learning', 'Respect', 'Growth'],
   description:
-    'A caring Impaq-curriculum tutor centre on the Bluff, Durban — supporting home-schooled learners from Grade 1 to Grade 12 in small, focused groups.',
+    'A caring home-education tutor centre on the Bluff, Durban — supporting home-schooled learners from Grade 1 to Grade 12 in small, focused groups.',
 
   // Contact
   phone: '078 303 7483',
@@ -21,7 +21,6 @@ export const site = {
   // Registration
   regNo: '2020 / 770652 / 07',
   venueNo: 'H6743',
-  curriculum: 'Impaq',
 
   nav: [
     { label: 'Home', to: '/' },

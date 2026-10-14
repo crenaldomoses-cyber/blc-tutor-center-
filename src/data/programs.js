@@ -82,8 +82,8 @@ export const whyBlc = [
   },
   {
     icon: '📚',
-    title: 'Impaq curriculum',
-    text: 'We facilitate the trusted Impaq home-education curriculum and manage assessments to their standards.',
+    title: 'Structured curriculum',
+    text: 'We facilitate a trusted home-education curriculum and manage assessments to its standards.',
   },
   {
     icon: '🔬',

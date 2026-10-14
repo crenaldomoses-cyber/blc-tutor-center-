@@ -9,7 +9,7 @@ const teamPhoto = photoById['tutor-team']
 const outingPhotos = ['waterfall-teens', 'climbing-wall', 'camp-group-photo'].map((id) => photoById[id])
 
 const valueDetail = {
-  Learning: 'Impaq-aligned tutoring that meets each learner where they are and builds real understanding.',
+  Learning: 'Tutoring that meets each learner where they are and builds real understanding.',
   Respect: 'A safe, respectful environment where every learner and tutor is valued.',
   Growth: 'Confidence, character and academic progress — one step at a time.',
 }
@@ -20,7 +20,7 @@ export default function About() {
       <PageHeader
         eyebrow="About us"
         title="Learning, respect and growth"
-        subtitle="BLC Tutor Center is a home-education tutor centre on the Bluff in Durban, guiding learners from Grade 1 to Matric through the Impaq curriculum."
+        subtitle="BLC Tutor Center is a home-education tutor centre on the Bluff in Durban, guiding learners from Grade 1 to Matric."
       />
 
       <section className="container-site py-14 grid md:grid-cols-2 gap-12 items-center">
@@ -41,7 +41,7 @@ export default function About() {
             <p>
               We're a tutor centre — not a school — providing a safe, secure and caring environment
               where children can learn and grow. We facilitate teaching, mark assessments and capture
-              marks according to Impaq standards, giving home-schooling families the structure and
+              marks according to curriculum standards, giving home-schooling families the structure and
               support they need.
             </p>
             <p>
@@ -121,7 +121,7 @@ export default function About() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
             { k: 'Grades 1–12', v: 'Every phase supported' },
-            { k: 'Impaq', v: 'Curriculum we facilitate' },
+            { k: 'Small groups', v: 'Real, focused attention' },
             { k: 'Est. 2020', v: `Reg ${site.regNo}` },
             { k: 'Bluff, Durban', v: '150 Maxwell Avenue' },
           ].map((f, i) => (

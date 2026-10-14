@@ -43,7 +43,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={160}>
               <p className="mt-6 text-lg text-blc-slate max-w-md leading-relaxed">
-                {site.name} is a caring {site.curriculum}-curriculum tutor centre supporting
+                {site.name} is a caring home-education tutor centre supporting
                 home-schooled learners in small, focused groups.
               </p>
             </Reveal>
@@ -77,7 +77,7 @@ export default function Home() {
               <div className="absolute -bottom-6 -left-6 card px-5 py-4 flex items-center gap-3 animate-floaty">
                 <img src="/images/logo.jpeg" alt="" className="h-11 w-11 rounded-full object-cover" />
                 <div className="leading-tight">
-                  <div className="font-head font-bold text-blc-navy">Impaq curriculum</div>
+                  <div className="font-head font-bold text-blc-navy">BLC Tutor Center</div>
                   <div className="text-xs text-blc-slate">Facilitated with care</div>
                 </div>
               </div>

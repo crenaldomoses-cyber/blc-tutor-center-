@@ -55,9 +55,9 @@ export default function Programmes() {
               ))}
             </ul>
             <p className="mt-5 text-xs text-blc-slate/80 leading-relaxed">
-              Please note: BLC is a tutor centre, not a school. We facilitate the Impaq curriculum and
-              manage assessments to Impaq standards; Impaq registration and fees are separate and paid
-              directly to Impaq. Full terms are provided in the application pack.
+              Please note: BLC is a tutor centre, not a school. We facilitate the curriculum and
+              manage assessments to its standards; curriculum registration and fees are separate and
+              paid directly to the curriculum provider. Full terms are provided in the application pack.
             </p>
           </div>
         </Reveal>
