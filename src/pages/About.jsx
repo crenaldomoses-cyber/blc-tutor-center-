@@ -41,7 +41,7 @@ export default function About() {
             <p>
               We're a tutor centre — not a school — providing a safe, secure and caring environment
               where children can learn and grow. We facilitate teaching, mark assessments and capture
-              marks according to curriculum standards, giving home-schooling families the structure and
+              marks according to curriculum standards, giving families the structure and
               support they need.
             </p>
             <p>

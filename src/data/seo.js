@@ -10,7 +10,7 @@ export const pages = {
   '/': {
     title: 'BLC Tutor Center | Home-Education Tutor Centre on the Bluff, Durban',
     description:
-      'Home-schooling support for Grades 1–12 at BLC Tutor Center on the Bluff, Durban. Small groups, caring tutors and hands-on learning. Now enrolling for 2026.',
+      'Tutoring support for Grades 1–12 at BLC Tutor Center on the Bluff, Durban. Small groups, caring tutors and hands-on learning. Now enrolling for 2027.',
   },
   '/programmes': {
     title: 'Programmes & Fees 2026 | BLC Tutor Center',
@@ -33,7 +33,7 @@ export const pages = {
       'BLC Tutor Center is a registered home-education centre on the Bluff, Durban, guiding learners from Grade 1 to Matric in small, focused groups.',
   },
   '/enrol': {
-    title: 'Enrol for 2026 | BLC Tutor Center',
+    title: 'Enrol for 2027 | BLC Tutor Center',
     description:
       'Enrol your child at BLC Tutor Center: the documents to bring, how to get in touch and directions to 150 Maxwell Avenue, Oceanview, Bluff. WhatsApp 078 303 7483.',
   },

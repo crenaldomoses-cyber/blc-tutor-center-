@@ -4,7 +4,7 @@ export const site = {
   shortName: 'BLC',
   values: ['Learning', 'Respect', 'Growth'],
   description:
-    'A caring home-education tutor centre on the Bluff, Durban — supporting home-schooled learners from Grade 1 to Grade 12 in small, focused groups.',
+    'A caring home-education tutor centre on the Bluff, Durban — supporting learners from Grade 1 to Grade 12 in small, focused groups.',
 
   // Contact
   phone: '078 303 7483',
