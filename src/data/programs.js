@@ -83,7 +83,7 @@ export const whyBlc = [
   {
     icon: '📚',
     title: 'Structured curriculum',
-    text: 'We facilitate a trusted home-education curriculum and manage assessments to its standards.',
+    text: 'We facilitate a trusted curriculum and manage assessments to its standards.',
   },
   {
     icon: '🔬',

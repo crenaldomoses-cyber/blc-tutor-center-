@@ -43,7 +43,7 @@ export default function Home() {
             </Reveal>
             <Reveal delay={160}>
               <p className="mt-6 text-lg text-blc-slate max-w-md leading-relaxed">
-                {site.name} is a caring home-education tutor centre supporting
+                {site.name} is a caring tutor centre supporting
                 learners in small, focused groups.
               </p>
             </Reveal>

@@ -20,7 +20,7 @@ export default function About() {
       <PageHeader
         eyebrow="About us"
         title="Learning, respect and growth"
-        subtitle="BLC Tutor Center is a home-education tutor centre on the Bluff in Durban, guiding learners from Grade 1 to Matric."
+        subtitle="BLC Tutor Center is a tutor centre on the Bluff in Durban, guiding learners from Grade 1 to Matric."
       />
 
       <section className="container-site py-14 grid md:grid-cols-2 gap-12 items-center">

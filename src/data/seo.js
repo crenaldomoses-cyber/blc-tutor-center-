@@ -8,7 +8,7 @@ export const OG_IMAGE_ALT = 'Learners doing a science practical at BLC Tutor Cen
 
 export const pages = {
   '/': {
-    title: 'BLC Tutor Center | Home-Education Tutor Centre on the Bluff, Durban',
+    title: 'BLC Tutor Center | Tutor Centre on the Bluff, Durban',
     description:
       'Tutoring support for Grades 1–12 at BLC Tutor Center on the Bluff, Durban. Small groups, caring tutors and hands-on learning. Now enrolling for 2027.',
   },
@@ -25,12 +25,12 @@ export const pages = {
   '/gallery': {
     title: 'Gallery | Life at BLC Tutor Center',
     description:
-      'Photos of lessons, science practicals, STEM projects, outings and celebrations at BLC Tutor Center, a home-education centre on the Bluff, Durban.',
+      'Photos of lessons, science practicals, STEM projects, outings and celebrations at BLC Tutor Center, a tutor centre on the Bluff, Durban.',
   },
   '/about': {
     title: 'About Us | BLC Tutor Center, Bluff, Durban',
     description:
-      'BLC Tutor Center is a registered home-education centre on the Bluff, Durban, guiding learners from Grade 1 to Matric in small, focused groups.',
+      'BLC Tutor Center is a registered tutor centre on the Bluff, Durban, guiding learners from Grade 1 to Matric in small, focused groups.',
   },
   '/enrol': {
     title: 'Enrol for 2027 | BLC Tutor Center',
